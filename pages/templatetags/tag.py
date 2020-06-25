@@ -6,6 +6,6 @@ register = template.Library()
 def hello_world(name):
     suma = 2+3
     publica = str(suma)
-    salute = 'Hello' + ' ' + name + ' ' + publica
+    salute = 'Hola' + ' ' + name + ' la suma es de 3 + 2 es: ' + publica
 
     return salute
